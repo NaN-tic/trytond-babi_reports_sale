@@ -130,25 +130,25 @@
         <record model="babi.expression" id="sale_sale_city">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.invoice_address.city</field>
+            <field name="expression">o.invoice_address and o.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="sale_sale_zip">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.invoice_address.postal_code</field>
+            <field name="expression">o.invoice_address and o.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="sale_sale_region">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.invoice_address.subdivision and o.invoice_address.subdivision.rec_name</field>
+            <field name="expression">o.invoice_address and o.invoice_address.subdivision and o.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="sale_sale_country">
             <field name="ttype">char</field>
             <field name="model" search="[('model','=','sale.sale')]"/>
-            <field name="expression">o.invoice_address.country and o.invoice_address.country.rec_name</field>
+            <field name="expression">o.invoice_address and o.invoice_address.country and o.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="sale_sale_currency_name">
