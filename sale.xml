@@ -379,12 +379,6 @@
             <field name="expression">o.sale.payment_type and o.sale.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
-        <record model="babi.dimension" id="sale_year_paymenttype__payment_type">
-            <field name="report" ref="sale_year_paymenttype"/>
-            <field name="expression" ref="sale_sale_payment_type"/>
-            <field name="name">Payment Type</field>
-            <field name="sequence" eval="2"/>
-        </record>
    </data>
    <data depends="sale_discount">
         <record model="babi.expression" id="sale_line_discount">
@@ -392,20 +386,6 @@
             <field name="model" search="[('model','=','sale.line')]"/>
             <field name="expression">o.discount</field>
             <field name="name">Discount</field>
-        </record>
-        <record model="babi.measure" id="sale_line_year_product_party_month__discount">
-            <field name="report" ref="sale_line_year_product_party_month"/>
-            <field name="expression" ref="sale_line_discount"/>
-            <field name="name">Discount Average</field>
-            <field name="aggregate">avg</field>
-            <field name="sequence" eval="3"/>
-        </record>
-        <record model="babi.measure" id="sale_line_party_product_year_month__discount">
-            <field name="report" ref="sale_line_party_product_year_month"/>
-            <field name="expression" ref="sale_line_discount"/>
-            <field name="name">Discount Average</field>
-            <field name="aggregate">avg</field>
-            <field name="sequence" eval="3"/>
         </record>
    </data>
    <data depends="sale_margin">
@@ -420,36 +400,6 @@
             <field name="model" search="[('model','=','sale.sale')]"/>
             <field name="expression">o.margin_percent_cache</field>
             <field name="name">Margin Percent</field>
-        </record>
-
-        <record model="babi.measure" id="sale_party_year_month__margin">
-            <field name="report" ref="sale_party_year_month"/>
-            <field name="expression" ref="sale_sale_margin"/>
-            <field name="name">Margin</field>
-            <field name="aggregate">sum</field>
-            <field name="sequence" eval="2"/>
-        </record>
-        <record model="babi.measure" id="sale_party_year_month__margin_percent">
-            <field name="report" ref="sale_party_year_month"/>
-            <field name="expression" ref="sale_sale_margin_percent"/>
-            <field name="name">Margin Percent Average</field>
-            <field name="aggregate">avg</field>
-            <field name="sequence" eval="3"/>
-        </record>
-
-        <record model="babi.measure" id="sale_year_party_month__margin">
-            <field name="report" ref="sale_year_party_month"/>
-            <field name="expression" ref="sale_sale_margin"/>
-            <field name="name">Margin</field>
-            <field name="aggregate">sum</field>
-            <field name="sequence" eval="2"/>
-        </record>
-        <record model="babi.measure" id="sale_year_party_month__margin_percent">
-            <field name="report" ref="sale_year_party_month"/>
-            <field name="expression" ref="sale_sale_margin_percent"/>
-            <field name="name">Margin Percent Average</field>
-            <field name="aggregate">avg</field>
-            <field name="sequence" eval="3"/>
         </record>
    </data>
 </tryton>
