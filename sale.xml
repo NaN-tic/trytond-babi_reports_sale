@@ -7,21 +7,21 @@
         <!-- Sales -->
         <record model="babi.filter" id="processing_done_sales">
             <field name="name">Processing/Done Sales</field>
-            <field name="model" search="[('model', '=', 'sale.sale')]"/>
+            <field name="model" search="[('name', '=', 'sale.sale')]"/>
             <field name="domain"
                 eval="[('state', 'in', ['processing','done'])]"
                 pyson="1"/>
         </record>
         <record model="babi.filter" id="processing_sales">
             <field name="name">Processing Sales</field>
-            <field name="model" search="[('model', '=', 'sale.sale')]"/>
+            <field name="model" search="[('name', '=', 'sale.sale')]"/>
             <field name="domain"
                 eval="[('state', 'in', ['processing'])]"
                 pyson="1"/>
         </record>
         <record model="babi.filter" id="done_sales">
             <field name="name">Done Sales</field>
-            <field name="model" search="[('model', '=', 'sale.sale')]"/>
+            <field name="model" search="[('name', '=', 'sale.sale')]"/>
             <field name="domain"
                 eval="[('state', 'in', ['done'])]"
                 pyson="1"/>
@@ -30,21 +30,21 @@
         <!-- Sale Lines -->
         <record model="babi.filter" id="processing_done_sale_lines">
             <field name="name">Processing/Done Sales</field>
-            <field name="model" search="[('model', '=', 'sale.line')]"/>
+            <field name="model" search="[('name', '=', 'sale.line')]"/>
             <field name="domain"
                 eval="[('sale.state', 'in', ['processing','done'])]"
                 pyson="1"/>
         </record>
         <record model="babi.filter" id="processing_sale_lines">
             <field name="name">Processing Sales</field>
-            <field name="model" search="[('model', '=', 'sale.line')]"/>
+            <field name="model" search="[('name', '=', 'sale.line')]"/>
             <field name="domain"
                 eval="[('sale.state', 'in', ['processing'])]"
                 pyson="1"/>
         </record>
         <record model="babi.filter" id="done_sale_lines">
             <field name="name">Done Sales</field>
-            <field name="model" search="[('model', '=', 'sale.line')]"/>
+            <field name="model" search="[('name', '=', 'sale.line')]"/>
             <field name="domain"
                 eval="[('sale.state', 'in', ['done'])]"
                 pyson="1"/>
@@ -56,116 +56,116 @@
         <!-- sale.sale -->
         <record model="babi.expression" id="sale_sale_self">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.id</field>
             <field name="name">Sale</field>
-            <field name="related_model" search="[('model','=','sale.sale')]"/>
+            <field name="related_model" search="[('name','=','sale.sale')]"/>
         </record>
         <record model="babi.expression" id="sale_sale">
             <field name="ttype">integer</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="sale_sale_reference">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.reference</field>
             <field name="name">Reference</field>
         </record>
         <record model="babi.expression" id="sale_sale_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">y(o.sale_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="sale_sale_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">m(o.sale_date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="sale_sale_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">d(o.sale_date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="sale_sale_week">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">w(o.sale_date)</field>
             <field name="name">Week</field>
         </record>
         <record model="babi.expression" id="sale_sale_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">ym(o.sale_date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="sale_sale_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">ymd(o.sale_date)</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="sale_sale_party_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.party and o.party.rec_name</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="sale_sale_untaxed_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.untaxed_amount</field>
             <field name="name">Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="sale_sale_total_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.total_amount</field>
             <field name="name">Total Amount</field>
         </record>
         <record model="babi.expression" id="sale_sale_city">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.invoice_address and o.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="sale_sale_zip">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.invoice_address and o.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="sale_sale_region">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.invoice_address and o.invoice_address.subdivision and o.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="sale_sale_country">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.invoice_address and o.invoice_address.country and o.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="sale_sale_currency_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="sale_sale_payment_term_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.payment_term and o.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="sale_sale_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.state</field>
             <field name="name">State</field>
         </record>
@@ -173,177 +173,177 @@
         <!-- sale.line -->
         <record model="babi.expression" id="sale_line">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.id</field>
             <field name="name">ID</field>
         </record>
         <record model="babi.expression" id="sale_line_year">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">y(o.sale and o.sale.sale_date)</field>
             <field name="name">Year</field>
         </record>
         <record model="babi.expression" id="sale_line_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">m(o.sale.sale_date)</field>
             <field name="name">Month</field>
         </record>
         <record model="babi.expression" id="sale_line_day">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">d(o.sale.sale_date)</field>
             <field name="name">Day</field>
         </record>
         <record model="babi.expression" id="sale_line_year_month">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">ym(o.sale.sale_date)</field>
             <field name="name">Year-Month</field>
         </record>
         <record model="babi.expression" id="sale_line_date">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.sale_date</field>
             <field name="name">Date</field>
         </record>
         <record model="babi.expression" id="sale_line_party_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.party.rec_name</field>
             <field name="name">Party Name</field>
         </record>
         <record model="babi.expression" id="sale_line_untaxed_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.untaxed_amount</field>
             <field name="name">Sale Untaxed Amount</field>
         </record>
         <record model="babi.expression" id="sale_line_total_amount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.total_amount</field>
             <field name="name">Sale Total Amount</field>
         </record>
         <record model="babi.expression" id="sale_line_city">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.invoice_address.city</field>
             <field name="name">City</field>
         </record>
         <record model="babi.expression" id="sale_line_zip">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.invoice_address.postal_code</field>
             <field name="name">Zip</field>
         </record>
         <record model="babi.expression" id="sale_line_region">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.invoice_address.subdivision and o.sale.invoice_address.subdivision.rec_name</field>
             <field name="name">State/Region</field>
         </record>
         <record model="babi.expression" id="sale_line_country">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.invoice_address.country and o.sale.invoice_address.country.rec_name</field>
             <field name="name">Country</field>
         </record>
         <record model="babi.expression" id="sale_line_currency">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.currency.rec_name</field>
             <field name="name">Currency</field>
         </record>
         <record model="babi.expression" id="sale_line_payment_term">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.payment_term and o.sale.payment_term.rec_name</field>
             <field name="name">Payment Term</field>
         </record>
         <record model="babi.expression" id="sale_line_state">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.state</field>
             <field name="name">Sale State</field>
         </record>
         <record model="babi.expression" id="sale_line_product">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.id</field>
             <field name="name">Product</field>
-            <field name="related_model" search="[('model', '=', 'product.product')]"/>
+            <field name="related_model" search="[('name', '=', 'product.product')]"/>
         </record>
         <record model="babi.expression" id="sale_line_product_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.code</field>
             <field name="name">Product Code</field>
         </record>
         <record model="babi.expression" id="sale_line_product_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.name</field>
             <field name="name">Product Name</field>
         </record>
         <record model="babi.expression" id="sale_line_product_category">
             <field name="ttype">many2one</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.account_category and o.product.account_category.id</field>
             <field name="name">Product Category</field>
-            <field name="related_model" search="[('model','=','product.category')]"/>
+            <field name="related_model" search="[('name','=','product.category')]"/>
         </record>
         <record model="babi.expression" id="sale_line_quantity">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.quantity</field>
             <field name="name">Quantity (no UoM conversion)</field>
         </record>
         <record model="babi.expression" id="sale_line_price_unit">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.unit_price</field>
             <field name="name">Unit Price</field>
         </record>
         <record model="babi.expression" id="sale_line_subtotal">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.amount</field>
             <field name="name">Amount</field>
         </record>
         <record model="babi.expression" id="sale_line_uos">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.unit and o.unit.rec_name</field>
             <field name="name">UoM</field>
         </record>
         <record model="babi.expression" id="sale_line_tax_name">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">','.join([x.rec_name for x in o.taxes])</field>
             <field name="name">Tax Names</field>
         </record>
         <record model="babi.expression" id="sale_line_tax_code">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">','.join([x.description for x in o.taxes])</field>
             <field name="name">Tax Codes</field>
         </record>
         <record model="babi.expression" id="sale_line_product_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.type</field>
             <field name="name">Product Type</field>
         </record>
         <record model="babi.expression" id="sale_line_available_quantity">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.quantity</field>
             <field name="name">Product Available Quantity</field>
         </record>
         <record model="babi.expression" id="sale_line_virtual_quantity">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.product and o.product.forecast_quantity</field>
             <field name="name">Product Forecast Quantity</field>
         </record>
@@ -352,7 +352,7 @@
    <data depends="sale_salesman">
         <record model="babi.expression" id="sale_sale_salesman">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.employee and o.employee.rec_name</field>
             <field name="name">Salesman</field>
         </record>
@@ -361,7 +361,7 @@
    <data depends="sale_shop">
         <record model="babi.expression" id="sale_sale_shop">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.shop and o.shop.rec_name</field>
             <field name="name">Shop</field>
         </record>
@@ -369,13 +369,13 @@
    <data depends="sale_payment_type">
         <record model="babi.expression" id="sale_sale_payment_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.payment_type and o.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
         <record model="babi.expression" id="sale_line_payment_type">
             <field name="ttype">char</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.sale.payment_type and o.sale.payment_type.rec_name</field>
             <field name="name">Payment Type</field>
         </record>
@@ -383,7 +383,7 @@
    <data depends="sale_discount">
         <record model="babi.expression" id="sale_line_discount">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.line')]"/>
+            <field name="model" search="[('name','=','sale.line')]"/>
             <field name="expression">o.discount</field>
             <field name="name">Discount</field>
         </record>
@@ -391,13 +391,13 @@
    <data depends="sale_margin">
         <record model="babi.expression" id="sale_sale_margin">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.margin_cache</field>
             <field name="name">Margin</field>
         </record>
         <record model="babi.expression" id="sale_sale_margin_percent">
             <field name="ttype">float</field>
-            <field name="model" search="[('model','=','sale.sale')]"/>
+            <field name="model" search="[('name','=','sale.sale')]"/>
             <field name="expression">o.margin_percent_cache</field>
             <field name="name">Margin Percent</field>
         </record>
