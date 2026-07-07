@@ -42,11 +42,6 @@ msgid "Country"
 msgstr "Staat"
 
 msgctxt ""
-"model:babi.dimension,name:sale_line_year_product_country_state_city__product"
-msgid "Product"
-msgstr "Variante"
-
-msgctxt ""
 "model:babi.dimension,name:sale_line_year_product_country_state_city__state"
 msgid "State/Region"
 msgstr "Land/Region"
@@ -76,11 +71,6 @@ msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__party"
 msgid "Party"
 msgstr "Partei"
 
-msgctxt ""
-"model:babi.dimension,name:sale_line_year_product_party_month__product"
-msgid "Product"
-msgstr "Variante"
-
 msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__year"
 msgid "Year"
 msgstr "Jahr"
@@ -89,16 +79,6 @@ msgctxt ""
 "model:babi.dimension,name:sale_line_year_productcategory_product__category"
 msgid "Product Category"
 msgstr "Artikelkategorie"
-
-msgctxt ""
-"model:babi.dimension,name:sale_line_year_productcategory_product__product"
-msgid "Product"
-msgstr "Variante"
-
-msgctxt ""
-"model:babi.dimension,name:sale_line_year_productcategory_product__year"
-msgid "Year"
-msgstr "Jahr"
 
 msgctxt "model:babi.dimension,name:sale_month_year__month"
 msgid "Month"
@@ -431,16 +411,6 @@ msgid "Quantity"
 msgstr "Anzahl"
 
 msgctxt "model:babi.measure,name:sale_line_year_product_party_month__subtotal"
-msgid "Subtotal"
-msgstr "Zwischensumme"
-
-msgctxt ""
-"model:babi.measure,name:sale_line_year_productcategory_product__quantity"
-msgid "Quantity"
-msgstr "Anzahl"
-
-msgctxt ""
-"model:babi.measure,name:sale_line_year_productcategory_product__subtotal"
 msgid "Subtotal"
 msgstr "Zwischensumme"
 
