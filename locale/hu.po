@@ -1,0 +1,536 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "model:babi.dimension,name:"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__party"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_party_product_year_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "Város"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__party"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "Termék kategória"
+
+msgctxt "model:babi.dimension,name:sale_month_year__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_month_year__year"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__party"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__state"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__date"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__party"
+msgid "Party"
+msgstr "Ügyfél"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.dimension.column,name:"
+msgid "Salesman"
+msgstr "Értékesítő"
+
+msgctxt "model:babi.dimension.column,name:sale_year_month_date__year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:"
+msgid "Salesman"
+msgstr "Értékesítő"
+
+msgctxt "model:babi.expression,name:sale_line"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:sale_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "Termék elérhető mennyisége"
+
+msgctxt "model:babi.expression,name:sale_line_city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.expression,name:sale_line_country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.expression,name:sale_line_currency"
+msgid "Currency"
+msgstr "Pénznem"
+
+msgctxt "model:babi.expression,name:sale_line_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:sale_line_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:sale_line_discount"
+msgid "Discount"
+msgstr "Engedmény"
+
+msgctxt "model:babi.expression,name:sale_line_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:sale_line_party_name"
+msgid "Party Name"
+msgstr "Ügyfél neve"
+
+msgctxt "model:babi.expression,name:sale_line_payment_term"
+msgid "Payment Term"
+msgstr "Fizetési feltétel"
+
+msgctxt "model:babi.expression,name:sale_line_payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.expression,name:sale_line_price_unit"
+msgid "Unit Price"
+msgstr "Egységár"
+
+msgctxt "model:babi.expression,name:sale_line_product"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "model:babi.expression,name:sale_line_product_category"
+msgid "Product Category"
+msgstr "Termék kategória"
+
+msgctxt "model:babi.expression,name:sale_line_product_code"
+msgid "Product Code"
+msgstr "Termékkód"
+
+msgctxt "model:babi.expression,name:sale_line_product_name"
+msgid "Product Name"
+msgstr "Terméknév"
+
+msgctxt "model:babi.expression,name:sale_line_product_type"
+msgid "Product Type"
+msgstr "Terméktípus"
+
+msgctxt "model:babi.expression,name:sale_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "Mennyiség (mértékegység-átváltás nélkül)"
+
+msgctxt "model:babi.expression,name:sale_line_region"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.expression,name:sale_line_state"
+msgid "Sale State"
+msgstr "Értékesítés állapota"
+
+msgctxt "model:babi.expression,name:sale_line_subtotal"
+msgid "Amount"
+msgstr "Összeg"
+
+msgctxt "model:babi.expression,name:sale_line_tax_code"
+msgid "Tax Codes"
+msgstr "Adóesetek"
+
+msgctxt "model:babi.expression,name:sale_line_tax_name"
+msgid "Tax Names"
+msgstr "Adók nevei"
+
+msgctxt "model:babi.expression,name:sale_line_total_amount"
+msgid "Sale Total Amount"
+msgstr "Értékesítés teljes összege"
+
+msgctxt "model:babi.expression,name:sale_line_untaxed_amount"
+msgid "Sale Untaxed Amount"
+msgstr "Értékesítés nettó összege"
+
+msgctxt "model:babi.expression,name:sale_line_uos"
+msgid "UoM"
+msgstr "Mértékegység"
+
+msgctxt "model:babi.expression,name:sale_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "Termék előrejelzett mennyisége"
+
+msgctxt "model:babi.expression,name:sale_line_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:sale_line_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.expression,name:sale_line_zip"
+msgid "Zip"
+msgstr "Irányítószám"
+
+msgctxt "model:babi.expression,name:sale_sale"
+msgid "ID"
+msgstr "Azonosító"
+
+msgctxt "model:babi.expression,name:sale_sale_city"
+msgid "City"
+msgstr "Város"
+
+msgctxt "model:babi.expression,name:sale_sale_country"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "model:babi.expression,name:sale_sale_currency_name"
+msgid "Currency"
+msgstr "Pénznem"
+
+msgctxt "model:babi.expression,name:sale_sale_date"
+msgid "Date"
+msgstr "Dátum"
+
+msgctxt "model:babi.expression,name:sale_sale_day"
+msgid "Day"
+msgstr "Nap"
+
+msgctxt "model:babi.expression,name:sale_sale_month"
+msgid "Month"
+msgstr "Hónap"
+
+msgctxt "model:babi.expression,name:sale_sale_party_name"
+msgid "Party Name"
+msgstr "Ügyfél neve"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_term_name"
+msgid "Payment Term"
+msgstr "Fizetési feltétel"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_type"
+msgid "Payment Type"
+msgstr "Fizetési mód"
+
+msgctxt "model:babi.expression,name:sale_sale_reference"
+msgid "Reference"
+msgstr "Hivatkozás"
+
+msgctxt "model:babi.expression,name:sale_sale_region"
+msgid "State/Region"
+msgstr "Állam/régió"
+
+msgctxt "model:babi.expression,name:sale_sale_self"
+msgid "Sale"
+msgstr "Vevői rendelés"
+
+msgctxt "model:babi.expression,name:sale_sale_state"
+msgid "State"
+msgstr "Állapot"
+
+msgctxt "model:babi.expression,name:sale_sale_total_amount"
+msgid "Total Amount"
+msgstr "Sorok összege"
+
+msgctxt "model:babi.expression,name:sale_sale_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.expression,name:sale_sale_week"
+msgid "Week"
+msgstr "Hét"
+
+msgctxt "model:babi.expression,name:sale_sale_year"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "model:babi.expression,name:sale_sale_year_month"
+msgid "Year-Month"
+msgstr "Év-hónap"
+
+msgctxt "model:babi.expression,name:sale_sale_zip"
+msgid "Zip"
+msgstr "Irányítószám"
+
+msgctxt "model:babi.filter,name:done_sale_lines"
+msgid "Done Sales"
+msgstr "Befejezett értékesítések"
+
+msgctxt "model:babi.filter,name:done_sales"
+msgid "Done Sales"
+msgstr "Befejezett értékesítések"
+
+msgctxt "model:babi.filter,name:processing_done_sale_lines"
+msgid "Processing/Done Sales"
+msgstr "Feldolgozás alatt álló/befejezett értékesítések"
+
+msgctxt "model:babi.filter,name:processing_done_sales"
+msgid "Processing/Done Sales"
+msgstr "Feldolgozás alatt álló/befejezett értékesítések"
+
+msgctxt "model:babi.filter,name:processing_sale_lines"
+msgid "Processing Sales"
+msgstr "Feldolgozás alatt álló értékesítések"
+
+msgctxt "model:babi.filter,name:processing_sales"
+msgid "Processing Sales"
+msgstr "Feldolgozás alatt álló értékesítések"
+
+msgctxt "model:babi.measure,name:"
+msgid "Margin"
+msgstr "Árrés"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__discount"
+msgid "Discount Average"
+msgstr "Átlagos kedvezmény"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "Összeg"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__discount"
+msgid "Discount Average"
+msgstr "Átlagos kedvezmény"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__quantity"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__subtotal"
+msgid "Subtotal"
+msgstr "Részösszeg"
+
+msgctxt "model:babi.measure,name:sale_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:sale_party_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:sale_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:sale_year_month_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:sale_year_party_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.measure,name:sale_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "Nettó összeg"
+
+msgctxt "model:babi.report,name:"
+msgid "Sales by Month - Year - Salesman"
+msgstr "Értékesítések hónap – év – értékesítő szerint"
+
+msgctxt "model:babi.report,name:sale_line_party_product_year_month"
+msgid "Sale lines by Party - Product - Year - Month"
+msgstr "Értékesítési sorok partner – termék – év – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_line_product_year_month"
+msgid "Sale lines by Product - Year - Month"
+msgstr "Értékesítési sorok termék – év – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_line_year_product_country_state_city"
+msgid "Sale lines by Year - Product - Country - State - City"
+msgstr "Értékesítési sorok év – termék – ország – állam – város szerint"
+
+msgctxt "model:babi.report,name:sale_line_year_product_month"
+msgid "Sale lines by Year - Product - Month"
+msgstr "Értékesítési sorok év – termék – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_line_year_product_party_month"
+msgid "Sale lines by Year - Product - Party - Month"
+msgstr "Értékesítési sorok év – termék – partner – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_line_year_productcategory_product"
+msgid "Sale lines by Year - Product Category - Product"
+msgstr "Értékesítési sorok év – termékkategória – termék szerint"
+
+msgctxt "model:babi.report,name:sale_month_year"
+msgid "Sales by Month - Year"
+msgstr "Értékesítések hónap – év szerint"
+
+msgctxt "model:babi.report,name:sale_party_year_month"
+msgid "Sales by Party - Year - Month"
+msgstr "Értékesítések partner – év – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_year_country_state_city"
+msgid "Sales by Year - Country - State - City"
+msgstr "Értékesítések év – ország – állam – város szerint"
+
+msgctxt "model:babi.report,name:sale_year_month_date"
+msgid "Sales by Year - Month - Day"
+msgstr "Értékesítések év – hónap – nap szerint"
+
+msgctxt "model:babi.report,name:sale_year_party_month"
+msgid "Sales by Year - Party - Month"
+msgstr "Értékesítések év – partner – hónap szerint"
+
+msgctxt "model:babi.report,name:sale_year_paymenttype"
+msgid "Sales by Year - Payment Type"
+msgstr "Értékesítések év – fizetési típus szerint"
+
+msgctxt "model:babi.expression,name:sale_sale_shop"
+msgid "Shop"
+msgstr "Üzlet"
+
+msgctxt "model:babi.expression,name:sale_sale_margin"
+msgid "Margin"
+msgstr "Árrés"
+
+msgctxt "model:babi.expression,name:sale_sale_margin_percent"
+msgid "Margin Percent"
+msgstr "Árrésszázalék"
