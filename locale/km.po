@@ -1,0 +1,535 @@
+#
+msgid ""
+msgstr ""
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "model:babi.dimension,name:"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__party"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.dimension,name:sale_line_party_product_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.dimension,name:sale_line_product_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__state"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_product_country_state_city__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__party"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:sale_line_year_product_party_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt ""
+"model:babi.dimension,name:sale_line_year_productcategory_product__category"
+msgid "Product Category"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt "model:babi.dimension,name:sale_month_year__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_month_year__year"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__party"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:sale_party_year_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__state"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.dimension,name:sale_year_country_state_city__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__date"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.dimension,name:sale_year_month_date__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__party"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "model:babi.dimension,name:sale_year_party_month__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.dimension,name:sale_year_paymenttype__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.dimension.column,name:"
+msgid "Salesman"
+msgstr "អ្នកលក់"
+
+msgctxt "model:babi.dimension.column,name:sale_year_month_date__year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:"
+msgid "Salesman"
+msgstr "អ្នកលក់"
+
+msgctxt "model:babi.expression,name:sale_line"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:sale_line_available_quantity"
+msgid "Product Available Quantity"
+msgstr "បរិមាណផលិតផលមានស្រាប់"
+
+msgctxt "model:babi.expression,name:sale_line_city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.expression,name:sale_line_country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.expression,name:sale_line_currency"
+msgid "Currency"
+msgstr "រូបិយប័ណ្ណ"
+
+msgctxt "model:babi.expression,name:sale_line_date"
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
+msgctxt "model:babi.expression,name:sale_line_day"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.expression,name:sale_line_discount"
+msgid "Discount"
+msgstr "ការបញ្ចុះតម្លៃ"
+
+msgctxt "model:babi.expression,name:sale_line_month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.expression,name:sale_line_party_name"
+msgid "Party Name"
+msgstr "ឈ្មោះភាគី"
+
+msgctxt "model:babi.expression,name:sale_line_payment_term"
+msgid "Payment Term"
+msgstr "លក្ខខណ្ឌទូទាត់"
+
+msgctxt "model:babi.expression,name:sale_line_payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:sale_line_price_unit"
+msgid "Unit Price"
+msgstr "តម្លៃឯកតា"
+
+msgctxt "model:babi.expression,name:sale_line_product"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "model:babi.expression,name:sale_line_product_category"
+msgid "Product Category"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt "model:babi.expression,name:sale_line_product_code"
+msgid "Product Code"
+msgstr "កូដផលិតផល"
+
+msgctxt "model:babi.expression,name:sale_line_product_name"
+msgid "Product Name"
+msgstr "ឈ្មោះផលិតផល"
+
+msgctxt "model:babi.expression,name:sale_line_product_type"
+msgid "Product Type"
+msgstr "ប្រភេទផលិតផល"
+
+msgctxt "model:babi.expression,name:sale_line_quantity"
+msgid "Quantity (no UoM conversion)"
+msgstr "បរិមាណ (គ្មានការបម្លែងឯកតារង្វាស់)"
+
+msgctxt "model:babi.expression,name:sale_line_region"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.expression,name:sale_line_state"
+msgid "Sale State"
+msgstr "ស្ថានភាពការលក់"
+
+msgctxt "model:babi.expression,name:sale_line_subtotal"
+msgid "Amount"
+msgstr "ចំនួនទឹកប្រាក់"
+
+msgctxt "model:babi.expression,name:sale_line_tax_code"
+msgid "Tax Codes"
+msgstr "កូដពន្ធ"
+
+msgctxt "model:babi.expression,name:sale_line_tax_name"
+msgid "Tax Names"
+msgstr "ឈ្មោះពន្ធ"
+
+msgctxt "model:babi.expression,name:sale_line_total_amount"
+msgid "Sale Total Amount"
+msgstr "ចំនួនទឹកប្រាក់លក់សរុប"
+
+msgctxt "model:babi.expression,name:sale_line_untaxed_amount"
+msgid "Sale Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់លក់មិនរួមពន្ធ"
+
+msgctxt "model:babi.expression,name:sale_line_uos"
+msgid "UoM"
+msgstr "ឯកតារង្វាស់"
+
+msgctxt "model:babi.expression,name:sale_line_virtual_quantity"
+msgid "Product Forecast Quantity"
+msgstr "បរិមាណផលិតផលព្យាករ"
+
+msgctxt "model:babi.expression,name:sale_line_year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:sale_line_year_month"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.expression,name:sale_line_zip"
+msgid "Zip"
+msgstr "លេខកូដប្រៃសណីយ៍"
+
+msgctxt "model:babi.expression,name:sale_sale"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "model:babi.expression,name:sale_sale_city"
+msgid "City"
+msgstr "ទីក្រុង"
+
+msgctxt "model:babi.expression,name:sale_sale_country"
+msgid "Country"
+msgstr "ប្រទេស"
+
+msgctxt "model:babi.expression,name:sale_sale_currency_name"
+msgid "Currency"
+msgstr "រូបិយប័ណ្ណ"
+
+msgctxt "model:babi.expression,name:sale_sale_date"
+msgid "Date"
+msgstr "កាលបរិច្ឆេទ"
+
+msgctxt "model:babi.expression,name:sale_sale_day"
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+msgctxt "model:babi.expression,name:sale_sale_month"
+msgid "Month"
+msgstr "ខែ"
+
+msgctxt "model:babi.expression,name:sale_sale_party_name"
+msgid "Party Name"
+msgstr "ឈ្មោះភាគី"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_term_name"
+msgid "Payment Term"
+msgstr "លក្ខខណ្ឌទូទាត់"
+
+msgctxt "model:babi.expression,name:sale_sale_payment_type"
+msgid "Payment Type"
+msgstr "ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:sale_sale_reference"
+msgid "Reference"
+msgstr "ឯកសារយោង"
+
+msgctxt "model:babi.expression,name:sale_sale_region"
+msgid "State/Region"
+msgstr "រដ្ឋ/តំបន់"
+
+msgctxt "model:babi.expression,name:sale_sale_self"
+msgid "Sale"
+msgstr "បញ្ជាលក់"
+
+msgctxt "model:babi.expression,name:sale_sale_state"
+msgid "State"
+msgstr "ស្ថានភាព"
+
+msgctxt "model:babi.expression,name:sale_sale_total_amount"
+msgid "Total Amount"
+msgstr "ចំនួនទឹកប្រាក់សរុប"
+
+msgctxt "model:babi.expression,name:sale_sale_untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.expression,name:sale_sale_week"
+msgid "Week"
+msgstr "សប្តាហ៍"
+
+msgctxt "model:babi.expression,name:sale_sale_year"
+msgid "Year"
+msgstr "ឆ្នាំ"
+
+msgctxt "model:babi.expression,name:sale_sale_year_month"
+msgid "Year-Month"
+msgstr "ឆ្នាំ-ខែ"
+
+msgctxt "model:babi.expression,name:sale_sale_zip"
+msgid "Zip"
+msgstr "លេខកូដប្រៃសណីយ៍"
+
+msgctxt "model:babi.filter,name:done_sale_lines"
+msgid "Done Sales"
+msgstr "ការលក់ដែលបានបញ្ចប់"
+
+msgctxt "model:babi.filter,name:done_sales"
+msgid "Done Sales"
+msgstr "ការលក់ដែលបានបញ្ចប់"
+
+msgctxt "model:babi.filter,name:processing_done_sale_lines"
+msgid "Processing/Done Sales"
+msgstr "ការលក់ដែលកំពុងដំណើរការ ឬបានបញ្ចប់"
+
+msgctxt "model:babi.filter,name:processing_done_sales"
+msgid "Processing/Done Sales"
+msgstr "ការលក់ដែលកំពុងដំណើរការ ឬបានបញ្ចប់"
+
+msgctxt "model:babi.filter,name:processing_sale_lines"
+msgid "Processing Sales"
+msgstr "ការលក់ដែលកំពុងដំណើរការ"
+
+msgctxt "model:babi.filter,name:processing_sales"
+msgid "Processing Sales"
+msgstr "ការលក់ដែលកំពុងដំណើរការ"
+
+msgctxt "model:babi.measure,name:"
+msgid "Margin"
+msgstr "រឹមប្រាក់ចំណេញ"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__discount"
+msgid "Discount Average"
+msgstr "ការបញ្ចុះតម្លៃមធ្យម"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:sale_line_party_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:sale_line_product_year_month__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt ""
+"model:babi.measure,name:sale_line_year_product_country_state_city__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_month__subtotal"
+msgid "Amount"
+msgstr "ចំនួនទឹកប្រាក់"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__discount"
+msgid "Discount Average"
+msgstr "ការបញ្ចុះតម្លៃមធ្យម"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__quantity"
+msgid "Quantity"
+msgstr "បរិមាណ"
+
+msgctxt "model:babi.measure,name:sale_line_year_product_party_month__subtotal"
+msgid "Subtotal"
+msgstr "សរុបរង"
+
+msgctxt "model:babi.measure,name:sale_month_year__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:sale_party_year_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:sale_year_country_state_city__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:sale_year_month_date__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:sale_year_party_month__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.measure,name:sale_year_paymenttype__untaxed_amount"
+msgid "Untaxed Amount"
+msgstr "ចំនួនទឹកប្រាក់មិនរួមបញ្ចូលពន្ធ"
+
+msgctxt "model:babi.report,name:"
+msgid "Sales by Month - Year - Salesman"
+msgstr "ការលក់តាមខែ - ឆ្នាំ - អ្នកលក់"
+
+msgctxt "model:babi.report,name:sale_line_party_product_year_month"
+msgid "Sale lines by Party - Product - Year - Month"
+msgstr "បន្ទាត់លក់តាមភាគី - ផលិតផល - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:sale_line_product_year_month"
+msgid "Sale lines by Product - Year - Month"
+msgstr "បន្ទាត់លក់តាមផលិតផល - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:sale_line_year_product_country_state_city"
+msgid "Sale lines by Year - Product - Country - State - City"
+msgstr "បន្ទាត់លក់តាមឆ្នាំ - ផលិតផល - ប្រទេស - រដ្ឋ - ក្រុង"
+
+msgctxt "model:babi.report,name:sale_line_year_product_month"
+msgid "Sale lines by Year - Product - Month"
+msgstr "បន្ទាត់លក់តាមឆ្នាំ - ផលិតផល - ខែ"
+
+msgctxt "model:babi.report,name:sale_line_year_product_party_month"
+msgid "Sale lines by Year - Product - Party - Month"
+msgstr "បន្ទាត់លក់តាមឆ្នាំ - ផលិតផល - ភាគី - ខែ"
+
+msgctxt "model:babi.report,name:sale_line_year_productcategory_product"
+msgid "Sale lines by Year - Product Category - Product"
+msgstr "បន្ទាត់លក់តាមឆ្នាំ - ប្រភេទផលិតផល - ផលិតផល"
+
+msgctxt "model:babi.report,name:sale_month_year"
+msgid "Sales by Month - Year"
+msgstr "ការលក់តាមខែ - ឆ្នាំ"
+
+msgctxt "model:babi.report,name:sale_party_year_month"
+msgid "Sales by Party - Year - Month"
+msgstr "ការលក់តាមភាគី - ឆ្នាំ - ខែ"
+
+msgctxt "model:babi.report,name:sale_year_country_state_city"
+msgid "Sales by Year - Country - State - City"
+msgstr "ការលក់តាមឆ្នាំ - ប្រទេស - រដ្ឋ - ក្រុង"
+
+msgctxt "model:babi.report,name:sale_year_month_date"
+msgid "Sales by Year - Month - Day"
+msgstr "ការលក់តាមឆ្នាំ - ខែ - ថ្ងៃ"
+
+msgctxt "model:babi.report,name:sale_year_party_month"
+msgid "Sales by Year - Party - Month"
+msgstr "ការលក់តាមឆ្នាំ - ភាគី - ខែ"
+
+msgctxt "model:babi.report,name:sale_year_paymenttype"
+msgid "Sales by Year - Payment Type"
+msgstr "ការលក់តាមឆ្នាំ - ប្រភេទការទូទាត់"
+
+msgctxt "model:babi.expression,name:sale_sale_shop"
+msgid "Shop"
+msgstr "ហាង"
+
+msgctxt "model:babi.expression,name:sale_sale_margin"
+msgid "Margin"
+msgstr "រឹមប្រាក់ចំណេញ"
+
+msgctxt "model:babi.expression,name:sale_sale_margin_percent"
+msgid "Margin Percent"
+msgstr "ភាគរយគម្លាតចំណេញ"
